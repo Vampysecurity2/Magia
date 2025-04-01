@@ -49,18 +49,18 @@ header img {
 }
 @media (max-width: 768px) {
     header {
-        height: 200px; /* Reduce el tamaño del header en pantallas pequeñas */
-        font-size: 12px;
-         padding: 10px 0; 
+        height: auto; /* Deja que se ajuste dinámicamente */
+        padding: 1em 0;
     }
+
     body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh; /* Asegúrate de ocupar toda la ventana */
-    margin: 0; /* Evita márgenes no deseados */
-  }
+        display: flex;
+        flex-direction: column; /* Para mejor disposición en móvil */
+        justify-content: center;
+        align-items: center;
+        height: auto; /* Evita forzar una altura fija */
+        margin: 0;
+    }
 }
   
 
