@@ -9,7 +9,7 @@ body {
 header {
     background-image: none;
     padding: 10px 0;
-    font-size: 7px;
+    
 }
 
 
@@ -50,6 +50,7 @@ header img {
     header {
         height: auto; /* Deja que se ajuste dinámicamente */
         padding: 7px 0;
+        font-size: 7px;
     }
 
     body {
