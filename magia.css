@@ -1,0 +1,99 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #333; /* Fondo del header (puedes cambiarlo si usas una imagen) */
+    padding: 10px 0;
+}
+
+/* Estilo del menú */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Esto alinea los elementos horizontalmente */
+    justify-content: left; /* Alinea de izquierda a derecha */
+}
+
+/* Elementos del menú */
+.menu li {
+    margin: 0 15px; /* Espaciado entre ítems */
+}
+
+/* Enlaces del menú */
+.menu a {
+    color: red ;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Imagen de fondo para el header */
+header {
+    background: url('https://imgs.search.brave.com/e9EmHLuxfAasKJ-VjgGIdFfet4f4T0zUImkuUgKO2l8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTMuZ2lwaHkuY29t/L21lZGlhL3YxLlky/bGtQVGM1TUdJM05q/RXhOVFp0T1RaMFpU/bHFOR2QyTVhjNE5q/aHlhWFo0Wm5odE1q/RnpZMjluTldWMk9I/ZDRhVEJtZGlabGNE/MTJNVjluYVdaelgz/TmxZWEpqYUNaamRE/MW4vdHUydmt6NDRy/SFFCdGZRNFNiL2dp/cGh5LmdpZg.gif') no-repeat center center;
+    background-size: cover;
+    height: 300px; /* Ajusta la altura del header */
+}
+
+/* Para asegurarte de que el texto sea legible */
+header nav a {
+    color: #00ff00; /* Ajusta el color del texto a blanco para contraste */
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+/* Estilo para la sección de descargas */
+#descargas {
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro para destacar la sección */
+}
+
+#descargas h1 {
+    text-align: center;
+    color: #333;
+}
+
+#descargas .content {
+    text-align: center;
+}
+
+#descargas img {
+    margin: 10px 0;
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+}
+.atom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+.atom img {
+    max-width: 100%;
+    height: auto;
+}
+.atom {
+    gap: 10px;
+}
+.atom {
+    width: 100%;
+    height: 100vh; /* Esto asegura que tome toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
