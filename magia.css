@@ -39,7 +39,7 @@ header {
 
 /* Imagen de fondo para el header */
 header {
-    height: 300px; /* Ajusta la altura del header */
+    height: 120px; /* Ajusta la altura del header */
 }
 header img {
     max-width: 100%;
