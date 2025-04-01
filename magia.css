@@ -47,6 +47,12 @@ header img {
     max-width: 100%;
     height: auto;
 }
+@media (max-width: 768px) {
+    header {
+        height: 200px; /* Reduce el tamaño del header en pantallas pequeñas */
+    }
+}
+
 /* Para asegurarte de que el texto sea legible */
 header nav a {
     color: #00ff00; /* Ajusta el color del texto a blanco para contraste */
