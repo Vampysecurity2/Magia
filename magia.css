@@ -48,7 +48,7 @@ header img {
 @media (max-width: 768px) {
     header {
         height: auto; /* Deja que se ajuste dinámicamente */
-        padding: 1em 0;
+        padding: 7px 0;
     }
 
     body {
