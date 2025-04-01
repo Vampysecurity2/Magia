@@ -138,5 +138,28 @@
             }
         });
     </script>
+    <script>
+    // Deshabilitar F12
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+            e.preventDefault();
+            alert("Función deshabilitada.");
+        }
+    });
+
+    // Deshabilitar Control + combinaciones (como Control+U, Control+Shift+I)
+    document.addEventListener("keydown", function (e) {
+        if (e.ctrlKey && (e.key === "u" || e.key === "U" || e.key === "c" || e.key === "C")) {
+            e.preventDefault();
+            alert("Función deshabilitada.");
+        }
+    });
+
+    // Deshabilitar clic derecho
+    document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+        alert("Clic derecho deshabilitado.");
+    });
+</script>
 </body>
 </html>
