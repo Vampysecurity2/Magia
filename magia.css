@@ -50,8 +50,8 @@ header img {
 @media (max-width: 768px) {
     header {
         height: 200px; /* Reduce el tamaño del header en pantallas pequeñas */
-        font-size: 14px;
-         padding: 10px; 
+        font-size: 12px;
+         padding: 10px 0; 
   
 }
 
