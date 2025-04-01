@@ -39,7 +39,6 @@ header {
 
 /* Imagen de fondo para el header */
 header {
-    background-size: cover;
     height: 300px; /* Ajusta la altura del header */
 }
 header img {
