@@ -53,6 +53,10 @@ header img {
         font-size: 14px;
          padding: 10px; 
     }
+    header img {
+        display: none; /* Oculta la imagen */
+    }
+
 }
 
 /* Para asegurarte de que el texto sea legible */
