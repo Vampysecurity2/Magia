@@ -39,7 +39,6 @@ header {
 
 /* Imagen de fondo para el header */
 header {
-    background: url('https://imgs.search.brave.com/e9EmHLuxfAasKJ-VjgGIdFfet4f4T0zUImkuUgKO2l8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTMuZ2lwaHkuY29t/L21lZGlhL3YxLlky/bGtQVGM1TUdJM05q/RXhOVFp0T1RaMFpU/bHFOR2QyTVhjNE5q/aHlhWFo0Wm5odE1q/RnpZMjluTldWMk9I/ZDRhVEJtZGlabGNE/MTJNVjluYVdaelgz/TmxZWEpqYUNaamRE/MW4vdHUydmt6NDRy/SFFCdGZRNFNiL2dp/cGh5LmdpZg.gif') no-repeat center center;
     background-size: cover;
     height: 300px; /* Ajusta la altura del header */
 }
