@@ -51,6 +51,7 @@ header img {
     header {
         height: 200px; /* Reduce el tamaño del header en pantallas pequeñas */
         font-size: 14px;
+         padding: 10px; 
     }
 }
 
