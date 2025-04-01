@@ -7,7 +7,7 @@ body {
 
 /* Estilos para el header */
 header {
-    background-color: #333; /* Fondo del header (puedes cambiarlo si usas una imagen) */
+    background-image: none;
     padding: 10px 0;
 }
 
