@@ -31,7 +31,7 @@ header {
 .menu a {
     color: red ;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 28px;
 }
 
 .menu a:hover {
@@ -49,8 +49,8 @@ header img {
 @media (max-width: 768px) {
     header {
         height: auto; /* Deja que se ajuste dinámicamente */
-        padding: 7px 0;
-        font-size: 7px;
+        padding: 10px 0;
+        
     }
     nav {
         display: flex;
@@ -65,6 +65,12 @@ header img {
         height: auto; /* Evita forzar una altura fija */
         margin: 0;
     }
+    .menu a {
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
 }
   
 
