@@ -135,6 +135,7 @@ main {
   background-repeat: no-repeat;
   height: 100vh;
   color: white; /* Cambia el color del texto */
+  background-color: gray;
 }
 
 main .content {
