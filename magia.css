@@ -128,18 +128,4 @@ h2{
     align-items: center;
     gap: 10px;
 }
-main {
-  background-image: url("https://imgs.search.brave.com/pKFBQLSxHgZMF4bAvMsSuYLlM6sf84KbFyoFuuEFGic/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTEuZ2lwaHkuY29t/L21lZGlhL3R1MnZr/ejQ0ckhRQnRmUTRT/Yi9naXBoeS5naWY_/Y2lkPTc5MGI3NjEx/YmZsNXdwMjlvbW1x/bXZhaDR4cHdzbnV1/NGUyeHo3bmV0dXkw/b3VleSZlcD12MV9n/aWZzX3NlYXJjaCZy/aWQ9Z2lwaHkuZ2lm/JmN0PWc.gif");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  color: white; /* Cambia el color del texto */
-  background-color: gray;
-}
 
-main .content {
-  background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente negro */
-  padding: 20px; /* Espaciado interno para dar mejor apariencia */
-  border-radius: 10px; /* Bordes redondeados, opcional */
-}
