@@ -31,7 +31,7 @@ header {
 .menu a {
     color: red ;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 10px;
 }
 
 .menu a:hover {
