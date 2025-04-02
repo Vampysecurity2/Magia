@@ -52,7 +52,11 @@ header img {
         padding: 7px 0;
         font-size: 7px;
     }
-
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: visible;
+    }
     body {
         display: flex;
         flex-direction: column; /* Para mejor disposición en móvil */
